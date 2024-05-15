@@ -3,7 +3,6 @@ import Anteater from '../assets/anteater.png';
 import { Nav } from '../components/nav';
 
 export function Home() {
-
   return (
     <>
       <div className="flex flex-col w-full h-screen bg-gradient-to-r from-slate-50 to-zinc-300">
