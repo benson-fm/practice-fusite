@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import DisclosureButtonComponent from './DisclosureButtonComponent.jsx';
-
+import CarouselComponent from './CarouselComponent.jsx';  // Ensure CarouselComponent is properly imported
 
 export function PageTwo() {
     const navigate = useNavigate();
@@ -28,7 +28,12 @@ export function PageTwo() {
             </div>
           </div>
           
-          {/* Disclosure buttons centered */}
+          {/* Carousel added here, placed above the disclosure buttons for visibility */}
+          <div className="h-1/3 w-full flex justify-center items-center">
+            <CarouselComponent />
+          </div>
+
+          {/* Disclosure buttons centered below the carousel */}
           <div className="flex flex-col items-center justify-center grow">
             <div className="w-full max-w-md space-y-2">
               <DisclosureButtonComponent question="What is FUSION?" answer="Filipinos Unifying Scientist-Engineers in an Organized Network (FUSION) exists to provide a community that fosters the personal and professional growth of our members through the engineering field and the Filipinx culture.​​​​" />
