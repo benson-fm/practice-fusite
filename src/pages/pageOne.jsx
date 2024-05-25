@@ -2,6 +2,7 @@ import { Tab } from '@headlessui/react';
 import { Transition } from '@headlessui/react'
 import { useState } from 'react'
 import { Nav } from '../components/nav';
+import Anteater from '../assets/anteater.png';
 
 export function PageOne() {
 
@@ -16,7 +17,7 @@ export function PageOne() {
             <Nav />
           </div>
         </div>
-        <Tab.Group>
+        {/* <Tab.Group>
           <Tab.List className = "flex space-x-6 justify-center rounded-xl bg-blue-900/20" >
             <Tab>Tab 1</Tab>
             <Tab>Tab 2</Tab>
@@ -39,20 +40,27 @@ export function PageOne() {
               >
                 <div className= "size-full rounded-xl bg-black shadow-lg">I will fade in and out</div>
               </Transition>
-                      {/* <Transition
-          show={isShowing}
-          enter="transition duration-[400ms]"
-          enterFrom="rotate-[-120deg] scale-50 opacity-0"
-          enterTo="rotate-0 scale-100 opacity-100"
-          leave="transition duration-200 ease-in-out"
-          leaveFrom="rotate-0 scale-100 opacity-100"
-          leaveTo="scale-95 opacity-0"
-        >
-          <div className="size-full rounded-xl bg-black shadow-lg" />
-        </Transition> */}
             </Tab.Panel>
           </Tab.Panels>
-        </Tab.Group>        
+        </Tab.Group>       */}
+        <div className= "flex place-content-center">
+        Vermilingua
+        </div>
+        <div className="flex place-content-center">
+          <div className="flex place-content-center flex-col card w-160 bg-base-100 shadow-xl">
+            <figure><img src={Anteater} alt="anteater" width={400} height={400} /></figure>
+            <div className="card-body">
+              <h2 className="card-title">
+                Anteater!
+                <div className="badge badge-secondary">They eat ants!</div>
+              </h2>
+              <p>anteaters don't have any teeth</p>
+              <div className="card-actions justify-end">
+                <button className="btn btn-primary">zot zot zot</button>
+              </div>
+            </div>
+          </div>
+        </div>  
         </div>
     </>
   );
