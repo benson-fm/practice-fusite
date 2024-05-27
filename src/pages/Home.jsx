@@ -16,7 +16,7 @@ export function Home() {
             <div className="text-zinc-900 text-8xl font-semibold">
               <Typewriter
                 options={{
-                  strings: ["Fusite Website Practice", "GO FUSITEEE!!!!!", "Go Dom and Arvin!!", "GO ETHANN!!", "YESS ARLAGHNN", "AARIEL AARIEL AARIEL!"],
+                  strings: ["Fusite Website Practice", "GO FUSITEEE!!!!!", "Go Dom and Arvin!!", "GO ETHANN!!", "YESS ARLAGHNN", "AARIEL AARIEL AARIEL!", "Jollibee"],
                   autoStart: true,
                   loop: true,
                 }}
