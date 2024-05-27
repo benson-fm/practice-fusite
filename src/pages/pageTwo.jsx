@@ -29,10 +29,8 @@ export function PageTwo() {
               <DisclosureButtonComponent question="Science & Engineering" answer="Hold an annual engineering project and competition" />
               {/* Add more DisclosureButtonComponent as needed */}
             </div>
-
           </div>
         </div>
-      </div>
     </>
   );
 }
