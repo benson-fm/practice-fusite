@@ -10,6 +10,7 @@ export function PageThree() {
             <Nav />
           </div>
         </div>
+
         <div class="flex justify-center items-center h-screen">
           <div class="w-1/2">
             <div className="diff aspect-[16/9]">
@@ -27,6 +28,7 @@ export function PageThree() {
             </div>
           </div>
         </div>
+        
       </div>
     </>
   );
