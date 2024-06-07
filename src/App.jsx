@@ -7,6 +7,7 @@ import { PageThree } from './pages/pageThree'
 import { PageFour } from './pages/pageFour'
 import { PageFive } from './pages/pageFive'
 import { ProfileBenson } from './pages/profileBenson'
+import { ProfileDom } from './pages/profileDom'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/pageFour" element={<PageFour />} />
         <Route path="/pageFive" element={<PageFive />} />
         <Route path="/profileBenson" element={<ProfileBenson />} />
+        <Route path="/profileDom" element={<ProfileDom />} />
       </Routes>
     </Router>
   )

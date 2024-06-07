@@ -30,6 +30,9 @@ export function Nav() {
     const handleProfileBenson = () => {
       navigate('/profileBenson');
   }
+    const handleProfileDom = () => {
+      navigate('/profileDom');
+    }
 
 
     return (
@@ -75,6 +78,11 @@ export function Nav() {
             <li>
               <button onClick={handleProfileBenson}>
                 Benson
+              </button>
+            </li>
+            <li>
+              <button onClick={handleProfileDom}>
+                Dommenick
               </button>
             </li>
           </ul>
