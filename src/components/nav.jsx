@@ -18,13 +18,16 @@ export function Nav() {
   const handlePageThree = () => {
     navigate('/pageThree');
   }
-
   const handlePageFour = () => {
     navigate('/pageFour')
   }
 
   const handlePageFive = () => {
     navigate('/pageFive');
+  }
+  
+  const handleProfileArvin = () => {
+    navigate('/profileArvin');
   }
 
   const handleProfileBenson = () => {
@@ -89,6 +92,9 @@ export function Nav() {
               </button>
               <button onClick={handleProfileEthan}>
                 Ethan
+              </button>
+              <button onClick={handleProfileArvin}>
+                Arvin
               </button>
             </li>    
           </ul>
