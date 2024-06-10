@@ -7,6 +7,7 @@ import { PageThree } from './pages/pageThree'
 import { PageFour } from './pages/pageFour'
 import { PageFive } from './pages/pageFive'
 import { ProfileBenson } from './pages/profileBenson'
+import { ProfileEthan } from './pages/profileEthan'
 import { ProfileAariel } from './pages/profileAariel'
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/pageFour" element={<PageFour />} />
         <Route path="/pageFive" element={<PageFive />} />
         <Route path="/profileBenson" element={<ProfileBenson />} />
+        <Route path="/profileEthan" element={<ProfileEthan />} />
         <Route path="/profileAariel" element={<ProfileAariel />} />
       </Routes>
     </Router>
