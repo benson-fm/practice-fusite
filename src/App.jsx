@@ -8,6 +8,8 @@ import { PageFour } from './pages/pageFour'
 import { PageFive } from './pages/pageFive'
 import { ProfileBenson } from './pages/profileBenson'
 import { ProfileArvin } from './pages/profileArvin'
+import { ProfileEthan } from './pages/profileEthan'
+import { ProfileAariel } from './pages/profileAariel'
 
 export default function App() {
   return (
@@ -21,6 +23,8 @@ export default function App() {
         <Route path="/pageFive" element={<PageFive />} />
         <Route path="/profileBenson" element={<ProfileBenson />} />
         <Route path="/profileArvin" element={<ProfileArvin />} />
+        <Route path="/profileEthan" element={<ProfileEthan />} />
+        <Route path="/profileAariel" element={<ProfileAariel />} />
       </Routes>
     </Router>
   )
