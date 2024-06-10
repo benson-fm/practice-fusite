@@ -1,39 +1,50 @@
 import { useNavigate } from "react-router-dom";
 
 export function Nav() {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
-    const handleHomePage = () => {
-        navigate('/');
-    }
+  const handleHomePage = () => {
+    navigate('/');
+  }
 
-    const handlePageOne = () => {
-        navigate('/pageOne');
-    }
+  const handlePageOne = () => {
+    navigate('/pageOne');
+  }
 
-    const handlePageTwo = () => {
-        navigate('/pageTwo')
-    }
+  const handlePageTwo = () => {
+    navigate('/pageTwo')
+  }
 
-    const handlePageThree = () => {
-        navigate('/pageThree');
-    }
+  const handlePageThree = () => {
+    navigate('/pageThree');
+  }
+  const handlePageFour = () => {
+    navigate('/pageFour')
+  }
 
-    const handlePageFour = () => {
-        navigate('/pageFour')
-    }
+  const handlePageFive = () => {
+    navigate('/pageFive');
+  }
+  
+  const handleProfileArvin = () => {
+    navigate('/profileArvin');
+  }
 
-    const handlePageFive = () => {
-        navigate('/pageFive');
-    }
-
-    const handleProfileBenson = () => {
-      navigate('/profileBenson');
+  const handleProfileBenson = () => {
+    navigate('/profileBenson');
+  }
+  
+  const handleProfileEthan = () => {
+    navigate('/profileEthan');
   }
     const handleProfileDom = () => {
       navigate('/profileDom');
     }
 
+   const handleProfileAariel = () => {
+    navigate('/profileAariel');
+  }
+  
 
     return (
       <>
@@ -79,12 +90,19 @@ export function Nav() {
               <button onClick={handleProfileBenson}>
                 Benson
               </button>
-            </li>
-            <li>
               <button onClick={handleProfileDom}>
                 Dommenick
               </button>
-            </li>
+              <button onClick={handleProfileAariel}>
+                Aariel
+              </button>
+              <button onClick={handleProfileEthan}>
+                Ethan
+              </button>
+              <button onClick={handleProfileArvin}>
+                Arvin
+              </button>
+            </li>    
           </ul>
         </details>
       </>
