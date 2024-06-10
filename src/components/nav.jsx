@@ -37,6 +37,9 @@ export function Nav() {
   const handleProfileEthan = () => {
     navigate('/profileEthan');
   }
+    const handleProfileDom = () => {
+      navigate('/profileDom');
+    }
 
    const handleProfileAariel = () => {
     navigate('/profileAariel');
@@ -86,6 +89,9 @@ export function Nav() {
             <li>
               <button onClick={handleProfileBenson}>
                 Benson
+              </button>
+              <button onClick={handleProfileDom}>
+                Dommenick
               </button>
               <button onClick={handleProfileAariel}>
                 Aariel
