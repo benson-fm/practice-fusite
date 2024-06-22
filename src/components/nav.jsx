@@ -29,7 +29,12 @@ export function Nav() {
 
     const handleProfileBenson = () => {
       navigate('/profileBenson');
-  }
+    }
+    
+    const handleProfileArlaghn = () => {
+      navigate('/profileArlaghn');
+    }
+  
 
 
     return (
@@ -75,6 +80,11 @@ export function Nav() {
             <li>
               <button onClick={handleProfileBenson}>
                 Benson
+              </button>
+            </li>
+            <li>
+              <button onClick={handleProfileArlaghn}>
+                Arlaghn
               </button>
             </li>
           </ul>
