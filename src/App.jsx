@@ -6,6 +6,7 @@ import { PageTwo } from './pages/pageTwo'
 import { PageThree } from './pages/pageThree'
 import { PageFour } from './pages/pageFour'
 import { PageFive } from './pages/pageFive'
+import { PageInternship } from './pages/pageInternship'
 import { ProfileBenson } from './pages/profileBenson'
 import { ProfileDom } from './pages/profileDom'
 import { ProfileArvin } from './pages/profileArvin'
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/pageThree" element={<PageThree />} />
         <Route path="/pageFour" element={<PageFour />} />
         <Route path="/pageFive" element={<PageFive />} />
+        <Route path="/pageInternship" element={<PageInternship />} />
         <Route path="/profileBenson" element={<ProfileBenson />} />
         <Route path="/profileDom" element={<ProfileDom />} />
         <Route path="/profileArvin" element={<ProfileArvin />} />
