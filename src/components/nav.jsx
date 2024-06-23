@@ -29,14 +29,10 @@ export function Nav() {
   const handleProfileArvin = () => {
     navigate("/profileArvin");
   };
-
-    const handleProfileBenson = () => {
-      navigate('/profileBenson');
-    }
     
-    const handleProfileArlaghn = () => {
-      navigate('/profileArlaghn');
-    }
+  const handleProfileArlaghn = () => {
+    navigate('/profileArlaghn');
+  }
   
   const handleProfileBenson = () => {
     navigate("/profileBenson");
