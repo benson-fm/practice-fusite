@@ -33,7 +33,11 @@ export function Nav() {
   const handleProfileArvin = () => {
     navigate("/profileArvin");
   };
-
+    
+  const handleProfileArlaghn = () => {
+    navigate('/profileArlaghn');
+  }
+  
   const handleProfileBenson = () => {
     navigate("/profileBenson");
   };
@@ -95,6 +99,7 @@ export function Nav() {
             <button onClick={handleProfileAariel}>Aariel</button>
             <button onClick={handleProfileEthan}>Ethan</button>
             <button onClick={handleProfileArvin}>Arvin</button>
+            <button onClick={handleProfileArlaghn}>Arlaghn</button>
           </li>
         </ul>
       </details>
