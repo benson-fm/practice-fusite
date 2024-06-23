@@ -23,8 +23,12 @@ export function Nav() {
   };
 
   const handlePageFive = () => {
-    navigate("/pageFive");
-  };
+    navigate('/pageFive');
+  }
+
+  const handlePageInternship = () => {
+    navigate('/pageInternship');
+  }
 
   const handleProfileArvin = () => {
     navigate("/profileArvin");
@@ -48,7 +52,7 @@ export function Nav() {
   const handlePractice = () => {
     navigate("/practice");
   };
-
+  
   return (
     <>
       <details className="dropdown dropdown-end">
@@ -75,6 +79,11 @@ export function Nav() {
           <li>
             <button onClick={handlePractice}>Practice</button>
           </li>
+          <li>
+              <button onClick={handlePageInternship}>
+                PageInternship
+              </button>
+            </li>
         </ul>
       </details>
       <details className="dropdown dropdown-end">
