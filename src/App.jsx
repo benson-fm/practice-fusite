@@ -8,7 +8,11 @@ import { PageFour } from './pages/pageFour'
 import { PageFive } from './pages/pageFive'
 import { ProfileBenson } from './pages/profileBenson'
 import { ProfileArlaghn } from './pages/profileArlaghn'
-
+import { ProfileDom } from './pages/profileDom'
+import { ProfileArvin } from './pages/profileArvin'
+import { ProfileEthan } from './pages/profileEthan'
+import { ProfileAariel } from './pages/profileAariel'
+import { Practice } from './pages/practice'
 
 export default function App() {
   return (
@@ -22,6 +26,11 @@ export default function App() {
         <Route path="/pageFive" element={<PageFive />} />
         <Route path="/profileBenson" element={<ProfileBenson />} />
         <Route path="/profileArlaghn" element={<ProfileArlaghn />} />
+        <Route path="/profileDom" element={<ProfileDom />} />
+        <Route path="/profileArvin" element={<ProfileArvin />} />
+        <Route path="/profileEthan" element={<ProfileEthan />} />
+        <Route path="/profileAariel" element={<ProfileAariel />} />
+        <Route path="/practice" element={<Practice />} />
       </Routes>
     </Router>
   )
