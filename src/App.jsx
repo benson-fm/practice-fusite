@@ -11,6 +11,7 @@ import { ProfileDom } from './pages/profileDom'
 import { ProfileArvin } from './pages/profileArvin'
 import { ProfileEthan } from './pages/profileEthan'
 import { ProfileAariel } from './pages/profileAariel'
+import { Practice } from './pages/practice'
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="/profileArvin" element={<ProfileArvin />} />
         <Route path="/profileEthan" element={<ProfileEthan />} />
         <Route path="/profileAariel" element={<ProfileAariel />} />
+        <Route path="/practice" element={<Practice />} />
       </Routes>
     </Router>
   )
