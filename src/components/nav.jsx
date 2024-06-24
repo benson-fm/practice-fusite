@@ -45,6 +45,9 @@ export function Nav() {
     navigate('/profileAariel');
   }
   
+  const handleInternDuties = () => {
+    navigate('/internDuties');
+  }
 
     return (
       <>
@@ -79,6 +82,11 @@ export function Nav() {
             <li>
               <button onClick={handlePageFive}>
                 PageFive
+              </button>
+            </li>
+            <li>
+              <button onClick={handleInternDuties}>
+                Intern Duties
               </button>
             </li>
           </ul>
