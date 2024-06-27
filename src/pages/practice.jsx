@@ -3,11 +3,10 @@ import Arlaghnpic from '../assets/Arlaghn_image.png';
 import Bensonpic from '../assets/bensonPic.png';
 import Dompic from '../assets/domPic.png'
 
-
 export function Practice() {
   return (
     <>
-      <div className="flex w-full h-screen bg-white">
+      <div className="flex w-full min-h-screen bg-white overflow-y-auto">
         {/* Right section for navigation and content */}
         <div className="flex flex-col w-full">
           <div className="flex w-full justify-end h-1/6">
@@ -18,7 +17,7 @@ export function Practice() {
           <div className="flex-grow flex flex-col items-center pt-8">
             <h2 className="text-2xl font-bold mb-8 text-black">Benefits of Interning</h2>
             
-            <div className="flex items-start mb-8 w-3/4">
+            <div className="flex items-start mb-16 w-3/4">
               <img src={Arlaghnpic} alt="Person" className="w-40 h-40 object-cover mr-4" />
               <div>
                 <p className="text-lg mb-2 text-black">
@@ -28,7 +27,7 @@ export function Practice() {
               </div>
             </div>
 
-            <div className="flex items-start mb-8 w-3/4">
+            <div className="flex items-start mb-16 w-3/4">
               <img src={Bensonpic} alt="Person" className="w-40 h-40 object-cover mr-4" />
               <div>
                 <p className="text-lg mb-2 text-black">
@@ -38,7 +37,7 @@ export function Practice() {
               </div>
             </div>
 
-            <div className="flex items-start mb-8 w-3/4">
+            <div className="flex items-start mb-16 w-3/4">
               <img src={Dompic} alt="Person" className="w-40 h-40 object-cover mr-4" />
               <div>
                 <p className="text-lg mb-2 text-black">
